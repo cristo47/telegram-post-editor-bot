@@ -20,7 +20,7 @@ FONT_MAPPING = {
     "8": "𝟪", "9": "𝟫", "0": "𝟢", ".": "․", "-": "-"
 }
 
-CHANNEL_ID = "@your_channel_id"  # Replace with your channel username or ID
+CHANNEL_ID = "-1002350512596"  # Replace with your channel username or ID
 
 
 def convert_to_math_sans(text: str) -> str:
@@ -95,7 +95,7 @@ def confirm_posts(update: Update, context: CallbackContext):
 
 def main():
     # Replace with your bot token
-    BOT_TOKEN = "YOUR_BOT_TOKEN"
+    BOT_TOKEN = "7577588868:AAFFZHTAsc0AwWaTPZxpP7EgGCqQEAQote8"
     updater = Updater(BOT_TOKEN, use_context=True)
 
     dp = updater.dispatcher
